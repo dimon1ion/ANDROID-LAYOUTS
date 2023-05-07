@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="6"
+    android:columnCount="2"
+    android:background="@color/black"
+    tools:context=".GridLayout3">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:background="#354A88"
+        android:layout_margin="5dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="dp"
+            android:layout_marginTop="dp"
+            android:layout_marginEnd="dp"
+            android:layout_marginBottom="dp"
+            android:text="Lorem Ipsum"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_column="1"
+        android:layout_row="0"
+        android:background="#2E5AD6"
+        android:layout_margin="5dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Something"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="25sp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_column="0"
+        android:layout_row="1"
+        android:background="#13D8D1"
+        android:layout_margin="5dp"
+        android:layout_columnSpan="2"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Ipsum dolor sit amet"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_column="0"
+        android:layout_row="2"
+        android:background="#3FD62E"
+        android:layout_margin="5dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Ipsum yes"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_column="1"
+        android:layout_row="2"
+        android:background="#D0D62E"
+        android:layout_margin="5dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Something"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="25sp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_column="0"
+        android:layout_row="3"
+        android:background="#1E8C12"
+        android:layout_margin="5dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="HelloWorld"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="25sp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="2"
+        android:layout_columnWeight="1"
+        android:layout_column="1"
+        android:layout_row="3"
+        android:background="#F4540B"
+        android:layout_rowSpan="2"
+        android:layout_margin="5dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/image8"
+            android:text="Yes yes yes"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="2"
+        android:layout_columnWeight="1"
+        android:layout_column="0"
+        android:layout_row="4"
+        android:background="#CC1B36"
+        android:layout_rowSpan="2"
+        android:layout_margin="5dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/image9"
+            android:text="Lorem Ipsum Dolor Sit"
+            android:textAllCaps="true"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_column="1"
+        android:layout_row="5"
+        android:background="#FFEB3B"
+        android:layout_margin="5dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Dolor dolor"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="25sp"/>
+    </RelativeLayout>
+
+</GridLayout>
